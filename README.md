@@ -2,7 +2,7 @@
 
 Đồ án môn học **CE118 – Thiết kế Luận lý Số (Digital Logic Design)**, Khoa Kỹ thuật Máy tính, Trường Đại học Công nghệ Thông tin – ĐHQG TP.HCM (UIT).
 
-Thiết kế, hiện thực mức cổng luận lý (`.bdf` Schematic kết hợp Verilog HDL) và kiểm chứng bộ vi xử lý **MIPS 32-bit Pipeline 5 tầng (`IF`, `ID`, `EX`, `MEM`, `WB`)** trên **Intel/Altera Quartus II 13.0 SP1** với FPGA mục tiêu **Cyclone II `EP2C35F672C6`** (Kit Altera DE2).
+Thiết kế, hiện thực mức cổng luận lý (`.bdf` Schematic kết hợp Verilog HDL) và kiểm chứng bộ vi xử lý **MIPS 32-bit Pipeline 5 tầng (`IF`, `ID`, `EX`, `MEM`, `WB`)** trên **Intel/Altera Quartus II 13.0 SP1**.
 
 ---
 
