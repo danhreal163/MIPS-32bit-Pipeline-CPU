@@ -1,0 +1,53 @@
+# ===== Intel / Altera Quartus II Build Artifacts =====
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+hc_output/
+reconfig_mif/
+*.qws
+*.rpt
+*.done
+*.jdi
+*.pin
+*.pof
+*.sof
+*.smsg
+*.summary
+*.srf
+*.bak
+*.qdf
+*.cmp
+*.ppf
+*.bsf.bak
+*.bdf.bak
+*_nativelink_simulation.rpt
+*.vwf.vt
+*.vwf.do
+
+# ===== ModelSim / QuestaSim =====
+work/
+transcript
+vsim.wlf
+*.mti
+*.mpf
+
+# ===== LaTeX Temporary Build Files =====
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# ===== OS & IDE =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/

@@ -1,0 +1,16 @@
+-- Quartus II Memory Initialization File (.mif) for Data Memory (DMEM)
+-- Preloaded test values:
+-- Word 0 (Byte address 0x00) = 10
+-- Word 1 (Byte address 0x04) = 25
+
+WIDTH=32;
+DEPTH=256;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=DEC;
+
+CONTENT BEGIN
+	0         :   10;
+	1         :   25;
+	[2..255]  :   0;
+END;

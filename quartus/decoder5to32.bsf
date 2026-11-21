@@ -1,0 +1,267 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 152 592)
+	(text "decoder5to32" (rect 5 0 84 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 560 25 572)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "SEL[4..0]" (rect 0 0 50 14)(font "Arial" (font_size 8)))
+		(text "SEL[4..0]" (rect 21 27 71 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "EN" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "EN" (rect 21 43 36 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "Y[0]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "Y[0]" (rect 92 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(port
+		(pt 136 48)
+		(output)
+		(text "Y[1]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "Y[1]" (rect 92 43 115 57)(font "Arial" (font_size 8)))
+		(line (pt 136 48)(pt 120 48))
+	)
+	(port
+		(pt 136 64)
+		(output)
+		(text "Y[2]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "Y[2]" (rect 92 59 115 73)(font "Arial" (font_size 8)))
+		(line (pt 136 64)(pt 120 64))
+	)
+	(port
+		(pt 136 80)
+		(output)
+		(text "Y[3]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "Y[3]" (rect 92 75 115 89)(font "Arial" (font_size 8)))
+		(line (pt 136 80)(pt 120 80))
+	)
+	(port
+		(pt 136 96)
+		(output)
+		(text "Y[4]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "Y[4]" (rect 92 91 115 105)(font "Arial" (font_size 8)))
+		(line (pt 136 96)(pt 120 96))
+	)
+	(port
+		(pt 136 112)
+		(output)
+		(text "Y[5]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "Y[5]" (rect 92 107 115 121)(font "Arial" (font_size 8)))
+		(line (pt 136 112)(pt 120 112))
+	)
+	(port
+		(pt 136 128)
+		(output)
+		(text "Y[6]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "Y[6]" (rect 92 123 115 137)(font "Arial" (font_size 8)))
+		(line (pt 136 128)(pt 120 128))
+	)
+	(port
+		(pt 136 144)
+		(output)
+		(text "Y[7]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "Y[7]" (rect 92 139 115 153)(font "Arial" (font_size 8)))
+		(line (pt 136 144)(pt 120 144))
+	)
+	(port
+		(pt 136 160)
+		(output)
+		(text "Y[8]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "Y[8]" (rect 92 155 115 169)(font "Arial" (font_size 8)))
+		(line (pt 136 160)(pt 120 160))
+	)
+	(port
+		(pt 136 176)
+		(output)
+		(text "Y[9]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "Y[9]" (rect 92 171 115 185)(font "Arial" (font_size 8)))
+		(line (pt 136 176)(pt 120 176))
+	)
+	(port
+		(pt 136 192)
+		(output)
+		(text "Y[10]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[10]" (rect 85 187 115 201)(font "Arial" (font_size 8)))
+		(line (pt 136 192)(pt 120 192))
+	)
+	(port
+		(pt 136 208)
+		(output)
+		(text "Y[11]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[11]" (rect 85 203 115 217)(font "Arial" (font_size 8)))
+		(line (pt 136 208)(pt 120 208))
+	)
+	(port
+		(pt 136 224)
+		(output)
+		(text "Y[12]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[12]" (rect 85 219 115 233)(font "Arial" (font_size 8)))
+		(line (pt 136 224)(pt 120 224))
+	)
+	(port
+		(pt 136 240)
+		(output)
+		(text "Y[13]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[13]" (rect 85 235 115 249)(font "Arial" (font_size 8)))
+		(line (pt 136 240)(pt 120 240))
+	)
+	(port
+		(pt 136 256)
+		(output)
+		(text "Y[14]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[14]" (rect 85 251 115 265)(font "Arial" (font_size 8)))
+		(line (pt 136 256)(pt 120 256))
+	)
+	(port
+		(pt 136 272)
+		(output)
+		(text "Y[15]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[15]" (rect 85 267 115 281)(font "Arial" (font_size 8)))
+		(line (pt 136 272)(pt 120 272))
+	)
+	(port
+		(pt 136 288)
+		(output)
+		(text "Y[16]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[16]" (rect 85 283 115 297)(font "Arial" (font_size 8)))
+		(line (pt 136 288)(pt 120 288))
+	)
+	(port
+		(pt 136 304)
+		(output)
+		(text "Y[17]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[17]" (rect 85 299 115 313)(font "Arial" (font_size 8)))
+		(line (pt 136 304)(pt 120 304))
+	)
+	(port
+		(pt 136 320)
+		(output)
+		(text "Y[18]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[18]" (rect 85 315 115 329)(font "Arial" (font_size 8)))
+		(line (pt 136 320)(pt 120 320))
+	)
+	(port
+		(pt 136 336)
+		(output)
+		(text "Y[19]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[19]" (rect 85 331 115 345)(font "Arial" (font_size 8)))
+		(line (pt 136 336)(pt 120 336))
+	)
+	(port
+		(pt 136 352)
+		(output)
+		(text "Y[20]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[20]" (rect 85 347 115 361)(font "Arial" (font_size 8)))
+		(line (pt 136 352)(pt 120 352))
+	)
+	(port
+		(pt 136 368)
+		(output)
+		(text "Y[21]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[21]" (rect 85 363 115 377)(font "Arial" (font_size 8)))
+		(line (pt 136 368)(pt 120 368))
+	)
+	(port
+		(pt 136 384)
+		(output)
+		(text "Y[22]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[22]" (rect 85 379 115 393)(font "Arial" (font_size 8)))
+		(line (pt 136 384)(pt 120 384))
+	)
+	(port
+		(pt 136 400)
+		(output)
+		(text "Y[23]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[23]" (rect 85 395 115 409)(font "Arial" (font_size 8)))
+		(line (pt 136 400)(pt 120 400))
+	)
+	(port
+		(pt 136 416)
+		(output)
+		(text "Y[24]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[24]" (rect 85 411 115 425)(font "Arial" (font_size 8)))
+		(line (pt 136 416)(pt 120 416))
+	)
+	(port
+		(pt 136 432)
+		(output)
+		(text "Y[25]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[25]" (rect 85 427 115 441)(font "Arial" (font_size 8)))
+		(line (pt 136 432)(pt 120 432))
+	)
+	(port
+		(pt 136 448)
+		(output)
+		(text "Y[26]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[26]" (rect 85 443 115 457)(font "Arial" (font_size 8)))
+		(line (pt 136 448)(pt 120 448))
+	)
+	(port
+		(pt 136 464)
+		(output)
+		(text "Y[27]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[27]" (rect 85 459 115 473)(font "Arial" (font_size 8)))
+		(line (pt 136 464)(pt 120 464))
+	)
+	(port
+		(pt 136 480)
+		(output)
+		(text "Y[28]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[28]" (rect 85 475 115 489)(font "Arial" (font_size 8)))
+		(line (pt 136 480)(pt 120 480))
+	)
+	(port
+		(pt 136 496)
+		(output)
+		(text "Y[29]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[29]" (rect 85 491 115 505)(font "Arial" (font_size 8)))
+		(line (pt 136 496)(pt 120 496))
+	)
+	(port
+		(pt 136 512)
+		(output)
+		(text "Y[30]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[30]" (rect 85 507 115 521)(font "Arial" (font_size 8)))
+		(line (pt 136 512)(pt 120 512))
+	)
+	(port
+		(pt 136 528)
+		(output)
+		(text "Y[31]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Y[31]" (rect 85 523 115 537)(font "Arial" (font_size 8)))
+		(line (pt 136 528)(pt 120 528))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 560))
+	)
+)
